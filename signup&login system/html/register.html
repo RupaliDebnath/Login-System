@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+    <title>registration form</title> 
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body style="background-color:lightcoral;font-family:sans-serif;">
+
+    <form name="login" method="post" actions="index.php"></form>
+        <h1 style="text-align:center;">Registration Form</h1>
+        <p style="text-align:center; font-size:20px; font-weight:bold;"><br>
+            <label>UserName&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label>
+            <input style="padding:10px 20px" type="text" name="username" required="required" placeholder="enter the Username">
+        </p>
+
+        <p style="text-align:center; font-size:20px; font-weight:bold;"><br>
+            <label>Email-id&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label>
+            <input style="padding:10px 20px" type="email" name="email" placeholder="enter the Email-id">
+        </p>
+
+        <p style="text-align:center; font-size:20px; font-weight:bold;"><br>
+            <label>Password&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</label>
+            <input style="padding:10px 20px" type="password" name="password" placeholder="enter the password">
+        </p>
+
+        <p style="text-align:center; font-size:20px; font-weight:bold;"><br>
+            <label>Confirm Password&ensp;&ensp;&ensp;&ensp;</label>
+            <input style="padding:10px 20px" type="text" name="password" placeholder="Re-enter the Password">
+        </p>
+        <br>
+
+        <p style="text-align: center;">
+             <input style="padding: 10px 20px; cursor:pointer;  border:0; background-color:rgb(68, 10, 10); color:white;" type="submit" name="register" value="Register">   
+        </p>
+
+        <p style="text-align: center;">
+            Already Member?
+            <a href="index.php">Just Login</a>
+        </p>
+    </form>
+        
+    </body>
+</html>
